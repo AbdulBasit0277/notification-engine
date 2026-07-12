@@ -1,0 +1,53 @@
+# Go build/test outputs
+bin/
+build/
+dist/
+tmp/
+local/
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+.coverprofile
+coverage.out
+*.prof
+*.pprof
+
+
+# Environment files
+.env
+.env.local
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+
+# Logs and runtime artifacts
+logs/
+*.log
+*.log.*
+
+# Databases and state files
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# Docker overrides
+docker-compose.override.yml
+
+# IDE and editor files
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+*.swp
+*.swo
+*~
+
+# Operating system files
+.DS_Store
+Thumbs.db
