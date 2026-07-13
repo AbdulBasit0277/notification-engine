@@ -59,7 +59,7 @@ type DeliveryLog struct {
 	Attempts       int            `json:"attempts"`
 	LastAttemptAt  *time.Time     `json:"last_attempt_at,omitempty"`
 	NextRetryAt    *time.Time     `json:"next_retry_at,omitempty"`
-	ErrorMessage   string         `json:"error_message,omitempty"`
+	ErrorMessage   *string        `json:"error_message,omitempty"`
 	CreatedAt      time.Time      `json:"created_at"`
 }
 
