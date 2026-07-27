@@ -1,5 +1,5 @@
 # Real-Time Notification Service
-
+MICROSERVICE ARCHITECTURE PATTERN
 A standalone backend microservice that delivers time-sensitive notifications to users across three channels: **WebSocket** (in-app, instant), **Email** (AWS SES), and **SMS** (AWS SNS).
 
 Built in Go as a learning project, following the PRD spec in full.
